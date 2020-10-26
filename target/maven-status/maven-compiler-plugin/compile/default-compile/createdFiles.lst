@@ -1,0 +1,9 @@
+distributedsystems/crowService/api/restControllers/CrowController.class
+distributedsystems/crowService/services/repository/CrowRepository.class
+distributedsystems/crowService/services/models/Crow.class
+distributedsystems/crowService/services/Service/CrowService.class
+distributedsystems/crowService/services/models/FairyAnimal.class
+distributedsystems/crowService/api/payload/CrowPayload.class
+distributedsystems/crowService/api/payload/FairyAnimalPayload.class
+distributedsystems/crowService/services/IService/CrowIService.class
+distributedsystems/crowService/CrowApplication.class

@@ -1,0 +1,9 @@
+/home/virus/IdeaProjects/crowService/src/main/java/distributedsystems/crowService/api/payload/FairyAnimalPayload.java
+/home/virus/IdeaProjects/crowService/src/main/java/distributedsystems/crowService/services/IService/CrowIService.java
+/home/virus/IdeaProjects/crowService/src/main/java/distributedsystems/crowService/services/Service/CrowService.java
+/home/virus/IdeaProjects/crowService/src/main/java/distributedsystems/crowService/api/payload/CrowPayload.java
+/home/virus/IdeaProjects/crowService/src/main/java/distributedsystems/crowService/api/restControllers/CrowController.java
+/home/virus/IdeaProjects/crowService/src/main/java/distributedsystems/crowService/CrowApplication.java
+/home/virus/IdeaProjects/crowService/src/main/java/distributedsystems/crowService/services/repository/CrowRepository.java
+/home/virus/IdeaProjects/crowService/src/main/java/distributedsystems/crowService/services/models/Crow.java
+/home/virus/IdeaProjects/crowService/src/main/java/distributedsystems/crowService/services/models/FairyAnimal.java

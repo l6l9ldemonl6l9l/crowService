@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: crow
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: crow
+  template:
+    metadata:
+      labels:
+        app: crow
+    spec:
+      containers:
+        -
+          image: mystory/crowservice
+          name: crow
+          imagePullPolicy: Never
+          ports:
+            -
+              containerPort: 8082
+              name: crow
+          env:
+            - name: POSTGRES_ENDPOINT
+              value: "jdbc:postgresql://127.0.1.0:5432/"
+            - name: POSTGRES_PASSWORD
+              value: "hello"
+            - name: POSTGRES_USERNAME
+              value: "postgres"
+            - name: CROW_URL
+              value: "http://story-crow"
